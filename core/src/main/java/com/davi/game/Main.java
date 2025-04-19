@@ -1,23 +1,16 @@
 package com.davi.game;
 
-import com.badlogic.gdx.ApplicationListener;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Input;
-import com.badlogic.gdx.audio.Music;
-import com.badlogic.gdx.audio.Sound;
-import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.math.MathUtils;
-import com.badlogic.gdx.math.Rectangle;
-import com.badlogic.gdx.math.Vector2;
-import com.badlogic.gdx.utils.Array;
-import com.badlogic.gdx.utils.ScreenUtils;
-import com.badlogic.gdx.utils.viewport.FitViewport;
+import com.badlogic.gdx.Game;
 
-public class Main implements ApplicationListener {
-    Texture backgroundTexture;
+public class Main extends Game {
+    
+    @Override
+    public void create() {
+        setScreen(new TelaMenu(this));
+    }
+
+    // Uncomment the following lines to use the commented code
+    /*Texture backgroundTexture;
     Texture bucketTexture;
     Texture dropTexture;
     Sound dropSound;
@@ -158,5 +151,5 @@ public class Main implements ApplicationListener {
     @Override
     public void dispose() {
         
-    }
+    }*/
 }

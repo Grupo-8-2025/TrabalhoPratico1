@@ -5,9 +5,18 @@ allprojects {
 
     idea {
         module {
-            outputDir file('build/classes/java/main')
-            testOutputDir file('build/classes/java/test')
+            outputDir = file('build/classes/java/main') // Corrigido
+            testOutputDir = file('build/classes/java/test') // Corrigido
         }
+    }
+
+    repositories {
+        mavenCentral()
+        maven { url = 'https://s01.oss.sonatype.org' } // Corrigido
+        mavenLocal()
+        maven { url = 'https://oss.sonatype.org/content/repositories/snapshots/' } // Corrigido
+        maven { url = 'https://s01.oss.sonatype.org/content/repositories/snapshots/' } // Corrigido
+        maven { url = 'https://jitpack.io' } // Corrigido
     }
 }
 
@@ -41,11 +50,11 @@ subprojects {
     ext.appName = 'Game'
     repositories {
         mavenCentral()
-        maven { url 'https://s01.oss.sonatype.org' }
+        maven { url = 'https://s01.oss.sonatype.org' }
         mavenLocal()
-        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
-        maven { url 'https://s01.oss.sonatype.org/content/repositories/snapshots/' }
-        maven { url 'https://jitpack.io' }
+        maven { url = 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url = 'https://s01.oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url = 'https://jitpack.io' }
     }
 }
 
