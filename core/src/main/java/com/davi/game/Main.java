@@ -4,9 +4,18 @@ import com.badlogic.gdx.Game;
 
 public class Main extends Game {
     
+    // Aqui estamos criando um objeto do tipo Main
+    // que é a classe principal do jogo
+    // e que vai ser usado para chamar as telas
+    // e gerenciar o jogo
+    // O Main é o ponto de entrada do jogo
+    // e é onde o jogo começa a ser executado
+    // A classe Game é uma classe base para jogos
+    // que fornece métodos para gerenciar telas
+    // e recursos do jogo
     @Override
     public void create() {
-        setScreen(new TelaMenu(this));
+        setScreen(new TelaMenu(this));// nessa linha camamos a tela de menu
     }
 
     // Uncomment the following lines to use the commented code
