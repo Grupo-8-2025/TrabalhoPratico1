@@ -1,0 +1,10 @@
+.gitkeep
+GAMERIA.ttf
+backgroundGame.png
+backgroundjogo.jpg
+erro.mp3
+font.ttf
+logo.png
+musicgame.mp3
+test.fnt
+winXPLoading.jpeg
