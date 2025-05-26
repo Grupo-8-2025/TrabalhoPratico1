@@ -41,7 +41,7 @@ public class DotsAndBoxes extends Game {
     }
 
     private void criaObjetosJogo(){
-        backgroundJogo = new Texture(Gdx.files.internal("assets/backgroundGame.png"));
+        backgroundJogo = new Texture(Gdx.files.internal("backgroundGame.png"));
         bolinhas = new Pontos(6f, 8f, 50f, Color.RED); // numBolinhas
         jogador1 = new Jogador("Jogador 1", Color.BLUE);
         linhas = new Linhas(6f, 8f, 50f, jogador1.getCor());
@@ -53,7 +53,7 @@ public class DotsAndBoxes extends Game {
     }
 
     private void criaTextos() {
-        FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("assets/GAMERIA.ttf"));
+        FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("GAMERIA.ttf"));
         FreeTypeFontParameter parameter = new FreeTypeFontParameter();
         parameter.size = 35;
         parameter.color = Color.WHITE;
@@ -61,12 +61,12 @@ public class DotsAndBoxes extends Game {
     }
 
     private void criaMusica() {
-        musicGame = Gdx.audio.newMusic(Gdx.files.internal("assets/musicgame.mp3"));
+        musicGame = Gdx.audio.newMusic(Gdx.files.internal("musicgame.mp3"));
         musicGame.setLooping(true);
         musicGame.setVolume(0.5f);
         musicGame.play();
 
-        erroSound = Gdx.audio.newSound(Gdx.files.internal("assets/erro.mp3"));
+        erroSound = Gdx.audio.newSound(Gdx.files.internal("erro.mp3"));
     }
 
     @Override
@@ -148,7 +148,7 @@ public class DotsAndBoxes extends Game {
         linhas = new Linhas(bolinhas.getNumBolinhas(), 8f, 50f, jogador1.getCor());
         quadrados = new Quadrados(bolinhas.getNumBolinhas(), 9f, 50f, jogador1.getCor());
         computador = new Computador(computador.getCor(), computador.getDificuldade());
-        FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("assets/GAMERIA.ttf"));
+        FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("GAMERIA.ttf"));
         FreeTypeFontParameter parameter = new FreeTypeFontParameter();
         parameter.size = 35;
         parameter.color = Color.WHITE;
