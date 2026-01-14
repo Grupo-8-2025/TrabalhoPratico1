@@ -55,11 +55,4 @@ ou
 
 ### ⚠️ Importante
 
-- 🔳 Execute o jogo **apenas em modo janela**, na resolução recomendada de **800x500 pixels**.  
-**Não utilize o modo tela cheia**, pois pode gerar erros de escala.
-
-- 🗂️ Certifique-se de que os arquivos de **fontes**, **imagens** e outros recursos estão corretamente posicionados na pasta:
-
-```
-core/assets/
-```
+- 🔳 Execute o jogo **apenas em modo janela**, na resolução recomendada de **800x500 pixels**. **Não utilize o modo tela cheia**, pois pode gerar erros de escala.
