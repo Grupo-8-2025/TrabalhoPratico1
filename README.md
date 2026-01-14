@@ -1,6 +1,6 @@
 # 🎮 Game Dots and Boxes
 
-Bem-vindo ao repositório Game Dots and Boxes! Este projeto foi desenvolvido como trabalho prático da matéria Linguagem e Técnicas de Programação 2 no curso técnico de informática do CEFET-MG.
+Bem-vindo ao repositório **Game Dots and Boxes**! Este projeto foi desenvolvido como trabalho prático da matéria Linguagem e Técnicas de Programação 2 no curso técnico de informática do CEFET-MG.
 O jogo é baseado no clássico **Dots and Boxes**, desenvolvido utilizando **Java** e a biblioteca de recursos multimídia **LibGDX**.
 
 ![Dots and Boxes Inicial Screen](https://github.com/Grupo-8-2025/TrabalhoPratico1/blob/main/assets/Jogo-DotsAndBoxes%2025_05_2025%2019_16_01.png)
