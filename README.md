@@ -49,7 +49,7 @@ lwjgl3/src/main/java/com/tp1/dotsandboxes/lwjgl3/Lwjgl3Launcher.java
 
 ### ⚠️ Importante
 
-- 🔳 Execute o jogo **apenas em modo janela**, na resolução recomendada de **800x500 pixels**. **Não utilize o modo tela cheia**, pois pode gerar erros de escala
+- Execute o jogo **apenas em modo janela**, na resolução recomendada de **800x500 pixels**. **Não utilize o modo tela cheia**, pois pode gerar erros de escala
 
 ---
 
