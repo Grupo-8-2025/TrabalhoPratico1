@@ -20,9 +20,9 @@ O jogo é baseado no clássico **Dots and Boxes**, desenvolvido utilizando **Jav
 
 ## 🏗️ Como Compilar
 
-### ✔️ Passo 1: Abrir o terminal na raiz do projeto
+✔️ Passo 1: Abrir o terminal na raiz do projeto
 
-### ✔️ Passo 2: Compilar usando o Gradle Wrapper
+✔️ Passo 2: Compilar usando o Gradle Wrapper
 
 ## 🎯 Como Rodar o Jogo
 
@@ -38,7 +38,7 @@ gradlew lwjgl3:run
 
 ### ✅ Pela sua IDE
 
-1. Abra o projeto na sua IDE de preferência (**IntelliJ IDEA**, **VS Code**, **Eclipse**, etc.).
+1. Abra o projeto na sua IDE de preferência (**IntelliJ IDEA**, **VS Code**, **Eclipse**, etc.)
 2. Navegue até o arquivo:
 
 ```
@@ -47,12 +47,25 @@ lwjgl3/src/main/java/com/tp1/dotsandboxes/lwjgl3/Lwjgl3Launcher.java
 
 3. Clique com o botão direito no arquivo e selecione:
 
-- **"Run"** (IntelliJ IDEA, VS Code)  
-ou  
-- **"Executar"** (dependendo do idioma da sua IDE).
+- **"Run"** (IntelliJ IDEA, VS Code) ou **"Executar"** (dependendo do idioma da sua IDE)
 
 ---
 
 ### ⚠️ Importante
 
-- 🔳 Execute o jogo **apenas em modo janela**, na resolução recomendada de **800x500 pixels**. **Não utilize o modo tela cheia**, pois pode gerar erros de escala.
+- 🔳 Execute o jogo **apenas em modo janela**, na resolução recomendada de **800x500 pixels**. **Não utilize o modo tela cheia**, pois pode gerar erros de escala
+
+---
+
+## 🕹️Como Jogar?🕹️
+
+### 🎯 Objetivo
+Capturar o maior número de quadrados, mais do que o seu oponente (máquina)
+
+### 🎮 Controles
+- **Botão direito do 🖱**: Clicar em um ponto do tabuleiro
+
+### 🧾 Regras 
+- Os jogadores revezam entre si para formar uma linha, clicando em dois pontos adjacentes
+- Se você desenhar a quarta linha que completa um quadrado, você ganha o quadrado.
+
