@@ -34,8 +34,6 @@ O jogo é baseado no clássico **Dots and Boxes**, desenvolvido utilizando **Jav
 gradlew lwjgl3:run
 ```
 
----
-
 ### ✅ Pela sua IDE
 
 1. Abra o projeto na sua IDE de preferência (**IntelliJ IDEA**, **VS Code**, **Eclipse**, etc.)
@@ -48,8 +46,6 @@ lwjgl3/src/main/java/com/tp1/dotsandboxes/lwjgl3/Lwjgl3Launcher.java
 3. Clique com o botão direito no arquivo e selecione:
 
 - **"Run"** (IntelliJ IDEA, VS Code) ou **"Executar"** (dependendo do idioma da sua IDE)
-
----
 
 ### ⚠️ Importante
 
