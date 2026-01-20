@@ -1,11 +1,7 @@
-# 🎮 Game Dots and Boxes 🎮
+# 🎮 Remake MegaManX 🎮
 
-Bem-vindo ao repositório **Game Dots and Boxes**! Este projeto foi desenvolvido como trabalho prático da matéria Linguagem e Técnicas de Programação 2 no curso técnico de informática do CEFET-MG.
-O jogo é baseado no clássico **Dots and Boxes**, desenvolvido utilizando **Java** e a biblioteca de recursos multimídia **LibGDX**.
-
-![Dots and Boxes Inicial Screen](https://github.com/Grupo-8-2025/TrabalhoPratico1/blob/main/assets/Jogo-DotsAndBoxes%2025_05_2025%2019_16_01.png)
-![Dots and Boxes Game](https://github.com/Grupo-8-2025/TrabalhoPratico1/blob/main/assets/Jogo-DotsAndBoxes%2025_05_2025%2019_36_36.png)
-![Dots and Boxes Final Screen](https://github.com/Grupo-8-2025/TrabalhoPratico1/blob/main/assets/Jogo-DotsAndBoxes%2025_05_2025%2019_38_33.png)
+Bem-vindo ao repositório **Remake MegaManX**! Este projeto foi desenvolvido como trabalho prático da matéria Linguagem e Técnicas de Programação 2 no curso técnico de informática do CEFET-MG.
+O jogo desenvolvido é baseado no primeiro jogo da clássica série de jogos **Mega Man X**. Neste projeto foi utilizado **Java** e a biblioteca de recursos multimídia **LibGDX**.
 
 ---
 
@@ -20,9 +16,9 @@ O jogo é baseado no clássico **Dots and Boxes**, desenvolvido utilizando **Jav
 
 ## 🏗️ Como Compilar
 
-✔️ Passo 1: Abrir o terminal na raiz do projeto
+✔️ **Passo 1**: Abrir o terminal na raiz do projeto
 
-✔️ Passo 2: Compilar usando o Gradle Wrapper
+✔️ **Passo 2**: Compilar usando o Gradle Wrapper
 
 ## 🎯 Como Rodar o Jogo
 
@@ -40,12 +36,11 @@ gradlew lwjgl3:run
 2. Navegue até o arquivo:
 
 ```
-lwjgl3/src/main/java/com/tp1/dotsandboxes/lwjgl3/Lwjgl3Launcher.java
+lwjgl3/src/main/java/com/tp2/megamanx/lwjgl3/Lwjgl3Launcher.java
 ```
 
 3. Clique com o botão direito no arquivo e selecione:
-
-- **"Run"** (IntelliJ IDEA, VS Code) ou **"Executar"** (dependendo do idioma da sua IDE)
+   - **"Run"** (IntelliJ IDEA, VS Code) ou **"Executar"** (dependendo do idioma da sua IDE)
 
 ### ⚠️ Importante
 
@@ -56,12 +51,13 @@ lwjgl3/src/main/java/com/tp1/dotsandboxes/lwjgl3/Lwjgl3Launcher.java
 ## 🕹️Como Jogar?🕹️
 
 ### 🎯 Objetivo
-Capturar o maior número de quadrados, mais do que o seu oponente (máquina)
+Derrotar o chefão de cada fase
 
 ### 🎮 Controles
-- **Botão direito do 🖱**: Clicar em um ponto do tabuleiro
-
-### 🧾 Regras 
-- Os jogadores revezam entre si para formar uma linha, clicando em dois pontos adjacentes
-- Se você desenhar a quarta linha que completa um quadrado, você ganha o quadrado.
-
+- **⬆️ Cima**: Subir plataformas
+- **⬅️ Esquerda**: Mover-se para a esquerda
+- **➡️ Direita**: Mover-se para a direita
+- **⏺ Espaço**: Pular
+- **Tecla Shift**: Ativar o dash
+- **Tecla X**: Atirar
+- **Tecla C**: Trocar de tiro

@@ -1,10 +1,18 @@
 .gitkeep
 GAMERIA.ttf
+Jogo-DotsAndBoxes 25_05_2025 19_16_01.png
+Jogo-DotsAndBoxes 25_05_2025 19_36_36.png
+Jogo-DotsAndBoxes 25_05_2025 19_38_33.png
+background.png
 backgroundGame.png
 backgroundjogo.jpg
+bucket.png
+drop.mp3
+drop.png
 erro.mp3
 font.ttf
 logo.png
+music.mp3
 musicgame.mp3
 test.fnt
 winXPLoading.jpeg
