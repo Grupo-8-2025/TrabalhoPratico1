@@ -54,4 +54,4 @@ lwjgl3/src/main/java/com/tp2/megamanx/lwjgl3/Lwjgl3Launcher.java
 Completar o maior número possível de caixas antes do fim da partida
 
 ### Controles
-- **🖱 Clique do mouse**: Conectar pontos adjacentes com linhas horizontais ou verticais em uma grade
+- **🖱 Clique do mouse**: Conectar pontos adjacentes nas linhas horizontais ou verticais
